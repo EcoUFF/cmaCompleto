@@ -1,0 +1,192 @@
+.conter_pagina_inicial{
+    font-family: 'roboto';
+}
+.reconhecimento_da_pagina{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('http://localhost:10011/wp-content/uploads/2023/06/floresta_secao_page_home.jpg');
+    padding: 20rem 0;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment: fixed;
+    color: rgb(255, 255, 255);
+}
+.reconhecimento_da_pagina h1{
+    font-size: 3rem;
+    font-weight: 600;
+    text-shadow: 
+               -1px -1px 2px #000000, 
+               -1px 1px 2px #000000,                    
+                1px -1px 2px #000000,                  
+                1px 0px 2px #000000;
+}
+.reconhecimento_da_pagina p{
+    text-align: center;
+    width: 60%;
+    font-size: 2.5rem;
+    text-shadow: 
+               -1px -1px 2px #000000, 
+               -1px 1px 2px #000000,                    
+                1px -1px 2px #000000,                  
+                1px 0px 2px #000000;
+}
+/*fim*/
+
+.quiz{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20rem 0;
+    background-color: rgba(80, 171, 167, 0.651);
+}
+.quiz p{
+    text-align: justify;
+    width: 50%;
+    font-size: 1.5rem;
+}
+.quiz img{
+    width: 25rem;
+    height: 25rem;
+
+}
+/*fim*/
+
+.sobre_nos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20rem 0;
+    background-color: rgb(246, 253, 255);
+}
+.sobre_nos img{
+    width: 25rem;
+    height: 25rem;
+
+}
+.texto_sobre_nos{
+    width: 50vw;
+}
+.texto_sobre_nos h1{
+    font-size: 2rem;
+    font-weight: 600;
+    padding-bottom: 1.125rem;
+}
+.texto_sobre_nos p{
+    width: 85%;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+/*fim*/
+.formulario{
+    padding: 15rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    background-color: rgba(80, 171, 167, 0.651);
+
+}
+#texto_formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.50rem;
+}
+
+#texto_formulario h1{
+    font-size: 2rem;
+    font-weight: 600;
+}
+#texto_formulario p{
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+.wpcf7-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.35rem;
+}
+.wpcf7-form p{
+    font-size: 1.25rem;
+}
+.wpcf7-form label:hover{
+    cursor: pointer;
+}
+input.wpcf7-form-control.has-spinner.wpcf7-submit{
+    cursor: pointer;
+}
+.wpcf7-form-control-wrap{
+    margin-top: 0.188rem;
+}
+.wpcf7-form-control-wrap input, textarea{
+    opacity: 0.75;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    border-radius: 1rem;
+}
+.wpcf7-form-control-wrap input:focus, .wpcf7-form-control-wrap textarea:focus{
+    outline: none;
+}
+.wpcf7-spinner{
+    margin: 0;
+}
+.wpcf7-response-output{
+    font-size: 1.5rem;
+    font-weight: 700;
+    border-color: transparent;
+
+}
+.wpcf7 form.invalid .wpcf7-response-output, .wpcf7 form.unaccepted .wpcf7-response-output, .wpcf7 form.payment-required .wpcf7-response-output{
+    border-color: transparent;
+    text-align: center;
+}
+.wpcf7 form .wpcf7-response-output{
+    margin: 0;
+    border: none;
+    padding: 0;
+    text-align: center;
+}
+.wpcf7-form-control{
+    border-radius: 1rem;
+    border-color: transparent;
+    opacity: 0.75;
+    padding: 1rem 1rem;
+}
+
+@media(max-width: 540px){
+    .reconhecimento_da_pagina{
+        gap: 1.25rem;
+    }
+    .reconhecimento_da_pagina p{
+        width: 99vw;
+    }
+    .quiz{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 1.5rem;
+    }
+    .quiz p{
+        text-align: center;
+    }
+    .sobre_nos{
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    .texto_sobre_nos{
+        width: 99vw;
+        text-align: center;
+    }
+    .texto_sobre_nos p{
+        width: 99vw;
+    }
+    #texto_formulario{
+        text-align: center;
+        gap: 0.25rem;
+    }
+}

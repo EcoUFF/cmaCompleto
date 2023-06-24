@@ -1,0 +1,8 @@
+.direitos_autorais{
+    display: flex;
+    justify-content: center;
+    font-family: 'roboto';
+    font-weight: 800;
+    background-color: rgb(129, 204, 105);
+    color: rgb(32, 32, 32);
+}

@@ -1,0 +1,53 @@
+.conter_informacao_da_postagem{
+    font-family: 'roboto';
+    background-color: rgb(246, 253, 255);
+
+
+}
+.post{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20rem;
+    gap: 1.1rem;
+    
+}
+.post a{
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.63);
+    font-weight: 700;
+    
+
+}
+.post a:hover{
+    color: black;
+    transition: color 0.6s ease-in-out;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+
+
+}
+.titulo_do_post{
+    font-size: 1.8rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+}
+.post p{
+    width: 80vw;
+    text-align: justify;
+    line-height: 1.45;
+    font-size: 1.5rem;
+    
+}
+.post span{
+    width: 80vw;
+    text-align: justify;
+    line-height: 1.45;
+    font-size: 1.5rem;
+}
+.post img{
+    width: 80vw;
+    height: 70vh;
+}
